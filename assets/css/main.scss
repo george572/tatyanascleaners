@@ -1,6 +1,15 @@
 @font-face {
-  font-family: breeSerif;
-  src: url(../fonts/breeserif.ttf);
+  font-family: thin;
+  src: url(../fonts/thin.otf);
 }
+@font-face {
+  font-family: bold;
+  src: url(../fonts/bold.otf);
+}
+@font-face {
+  font-family: light;
+  src: url(../fonts/light.otf);
+}
+
 @import "reset.scss";
 @import "home.scss";
