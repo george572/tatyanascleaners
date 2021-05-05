@@ -891,6 +891,9 @@ body {
   color: #303f81;
   font-size: 20px;
   margin: 15px 0;
+  height: 40px;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .contact-page li {
@@ -962,4 +965,12 @@ body {
 .contact-page img {
   width: 100%;
   object-fit: contain;
+}
+
+.faq-ative {
+  height: 80px;
+}
+
+.answer {
+  font-size: 20px !important;
 }

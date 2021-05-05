@@ -22,3 +22,14 @@ function initMap() {
         map: map,
     });
 }
+
+
+//faqs
+
+// const questions = document.querySelectorAll(".question");
+//
+// questions.forEach(item => {
+//     item.addEventListener("click", function() {
+//         item.classList.toggle("faq-ative")
+//     })
+// })
