@@ -1,6 +1,14 @@
 @font-face {
-  font-family: breeSerif;
-  src: url(../fonts/breeserif.ttf);
+  font-family: thin;
+  src: url(../fonts/thin.otf);
+}
+@font-face {
+  font-family: bold;
+  src: url(../fonts/bold.otf);
+}
+@font-face {
+  font-family: light;
+  src: url(../fonts/light.otf);
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -211,13 +219,13 @@ body {
   padding-top: 14px;
 }
 .address a {
-  font-size: 37.49px;
+  font-size: 22.49px;
   box-sizing: border-box;
   padding: 4px 44px;
   background: #4f8d02;
   color: white;
   border: 1px solid transparent;
-  font-family: breeSerif;
+  font-family: bold;
   transition: all 200ms;
 }
 .address a:hover {
@@ -269,9 +277,11 @@ body {
   height: 100%;
 }
 .hero-content h2 {
-  font-size: 36px;
+  font-size: 44px;
   padding-bottom: 10px;
   color: #4f8d02;
+  width: 100%;
+  text-align: center;
 }
 @media only screen and (max-width: 400px) {
   .hero-content h2 {
@@ -293,10 +303,10 @@ body {
   content: "";
   display: block;
   position: absolute;
-  width: 100%;
+  width: 110%;
   height: 1px;
   background: #4f8d02;
-  left: -111%;
+  left: -136%;
   top: 36%;
 }
 @media only screen and (max-width: 400px) {
@@ -314,6 +324,7 @@ body {
 .hero-content p {
   font-size: 28px;
   color: #3a4883;
+  padding-left: 39px;
 }
 @media only screen and (max-width: 400px) {
   .hero-content p {
@@ -327,7 +338,7 @@ body {
   margin: 100px auto 0 20px;
   padding: 0 28px;
   box-sizing: border-box;
-  width: 380px;
+  width: 513px;
   height: 330px;
   display: flex;
   justify-content: center;
@@ -373,7 +384,7 @@ body {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 @media only screen and (max-width: 665px) {
   .action-wrapper {
@@ -382,14 +393,14 @@ body {
   }
 }
 .action-wrapper a {
-  width: 48%;
+  width: 38%;
   height: 50px;
   background: #ff1e1a;
   margin: 0 20px;
   color: white;
   text-align: center;
   line-height: 50px;
-  font-size: 35px;
+  font-size: 19px;
   border: 1px solid transparent;
   transition: all 300ms;
 }
@@ -441,7 +452,7 @@ body {
 .services-title {
   width: 100%;
   margin: 0 auto;
-  font-size: 38px;
+  font-size: 28px;
   color: #334281;
   font-weight: bold;
   position: relative;
@@ -451,10 +462,10 @@ body {
   content: "";
   position: absolute;
   display: block;
-  width: calc(100% - 240px);
+  width: calc(100% - 200px);
   height: 1px;
   background: #334281;
-  top: 23px;
+  top: 17px;
   right: 0;
 }
 
@@ -464,7 +475,7 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
 @media only screen and (max-width: 768px) {
   .services-list {
@@ -473,7 +484,7 @@ body {
 }
 .services-list li {
   color: #4f8d02;
-  font-size: 28px;
+  font-size: 21px;
 }
 .services-list li h2 {
   padding: 10px 0;
@@ -608,7 +619,7 @@ body {
   left: -130px;
 }
 .about-us-description p:nth-child(2) {
-  font-size: 50px;
+  font-size: 30px;
   color: #57920e;
   line-height: 64px;
   padding-bottom: 30px;
@@ -625,7 +636,7 @@ body {
   }
 }
 .about-us-description p:nth-child(3) {
-  font-size: 21px;
+  font-size: 18px;
   color: #303f81;
 }
 @media only screen and (max-width: 768px) {
@@ -662,6 +673,7 @@ body {
 .footer-content {
   margin: 0;
   opacity: 0.8;
+  width: 393px;
 }
 .footer-content h2 {
   font-size: 36px;
@@ -734,6 +746,7 @@ body {
   font-size: 19px;
   padding: 5px 0;
   color: white;
+  font-family: light;
 }
 .footer-info ul li:nth-child(1), .footer-info .social-media li:nth-child(1) {
   font-size: 27px;
