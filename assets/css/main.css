@@ -52,7 +52,6 @@ a {
 
 body {
   width: 100%;
-  font-family: breeSerif;
 }
 
 .header {
@@ -200,6 +199,7 @@ body {
   margin: 0 12px;
   color: #1c3083;
   font-size: 22.15px;
+  font-family: light;
 }
 .nav-link.active {
   font-weight: bold;
@@ -282,6 +282,7 @@ body {
   color: #4f8d02;
   width: 100%;
   text-align: center;
+  font-family: light;
 }
 @media only screen and (max-width: 400px) {
   .hero-content h2 {
@@ -297,7 +298,7 @@ body {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  font-weight: bold;
+  font-family: bold;
 }
 .hero-content span:before {
   content: "";
@@ -325,6 +326,7 @@ body {
   font-size: 28px;
   color: #3a4883;
   padding-left: 39px;
+  font-family: thin;
 }
 @media only screen and (max-width: 400px) {
   .hero-content p {
@@ -403,6 +405,7 @@ body {
   font-size: 19px;
   border: 1px solid transparent;
   transition: all 300ms;
+  font-family: bold;
 }
 .action-wrapper a:hover {
   color: #ff1e1a;
@@ -457,6 +460,7 @@ body {
   font-weight: bold;
   position: relative;
   padding: 0 0 20px 0;
+  font-family: bold;
 }
 .services-title:after {
   content: "";
@@ -485,6 +489,7 @@ body {
 .services-list li {
   color: #4f8d02;
   font-size: 21px;
+  font-family: light;
 }
 .services-list li h2 {
   padding: 10px 0;
@@ -546,6 +551,7 @@ body {
 .opening-hours-description p strong {
   display: block;
   padding-bottom: 30px;
+  font-family: bold;
 }
 @media only screen and (max-width: 1145px) {
   .opening-hours-description p strong {
@@ -597,6 +603,7 @@ body {
   left: 136px;
   width: 240px;
   padding-bottom: 20px;
+  font-family: bold;
 }
 @media only screen and (max-width: 458px) {
   .about-us-description h2 {
@@ -623,6 +630,7 @@ body {
   color: #57920e;
   line-height: 64px;
   padding-bottom: 30px;
+  font-family: light;
 }
 @media only screen and (max-width: 768px) {
   .about-us-description p:nth-child(2) {
@@ -638,6 +646,7 @@ body {
 .about-us-description p:nth-child(3) {
   font-size: 18px;
   color: #303f81;
+  font-family: light;
 }
 @media only screen and (max-width: 768px) {
   .about-us-description p:nth-child(3) {
@@ -679,6 +688,7 @@ body {
   font-size: 36px;
   padding-bottom: 10px;
   color: #4f8d02;
+  font-family: light;
 }
 @media only screen and (max-width: 1215px) {
   .footer-content h2 {
@@ -694,7 +704,7 @@ body {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  font-weight: bold;
+  font-family: bold;
 }
 .footer-content span:before {
   content: "";
@@ -721,6 +731,7 @@ body {
 .footer-content p, .footer-content a {
   font-size: 28px;
   color: #3a4883;
+  font-family: light;
 }
 @media only screen and (max-width: 400px) {
   .footer-content p, .footer-content a {
@@ -732,6 +743,7 @@ body {
 .footer-content a, .footer-content .footer-address {
   font-size: 20px;
   padding-top: 0;
+  font-family: bold;
 }
 .footer-content a {
   padding-top: 15px;
@@ -752,6 +764,7 @@ body {
   font-size: 27px;
   padding: 15px 0 25px 0;
   position: relative;
+  font-family: bold;
 }
 .footer-info ul li:nth-child(1):after, .footer-info .social-media li:nth-child(1):after {
   content: "";
@@ -783,11 +796,13 @@ body {
   font-size: 19px;
   padding: 5px 0;
   color: white;
+  font-family: light;
 }
 .social-media p:nth-child(1) {
   font-size: 27px;
   padding: 15px 0 25px 0;
   position: relative;
+  font-family: bold;
 }
 .social-media p:nth-child(1):after {
   content: "";

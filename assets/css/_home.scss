@@ -1,6 +1,5 @@
 body {
   width: 100%;
-  font-family: breeSerif;
 }
 .header {
   width: 100%;
@@ -128,6 +127,7 @@ body {
   margin: 0 12px;
   color: #1c3083;
   font-size: 22.15px;
+  font-family: light;
   &.active {
     font-weight: bold;
   }
@@ -197,6 +197,7 @@ body {
     color: #4f8d02;
     width: 100%;
     text-align: center;
+    font-family: light;
     @media only screen and (max-width: 400px){
       font-size: 33px;
       text-align: center;
@@ -210,7 +211,7 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    font-weight: bold;
+    font-family: bold;
     &:before {
       content: "";
       display: block;
@@ -237,6 +238,7 @@ body {
     font-size:28px;
     color: #3a4883;
     padding-left: 39px;
+    font-family: thin;
     @media only screen and (max-width: 400px){
       font-size:24px;
       text-align: center;
@@ -302,6 +304,7 @@ body {
     font-size: 19px;
     border: 1px solid transparent;
     transition: all 300ms;
+    font-family: bold;
     &:hover {
       color: #ff1e1a;
       border: 1px solid #ff1e1a;
@@ -351,6 +354,7 @@ body {
   font-weight: bold;
   position: relative;
   padding:0 0 20px 0;
+  font-family: bold;
   &:after {
     content: "";
     position: absolute;
@@ -376,6 +380,7 @@ body {
   li {
     color: #4f8d02;
     font-size: 21px;
+    font-family: light;
     h2 {
       padding: 10px 0;
     }
@@ -430,6 +435,7 @@ body {
     strong {
       display: block;
       padding-bottom: 30px;
+      font-family: bold;
       @media only screen and (max-width: 1145px){
         padding-bottom: 10px;
       }
@@ -475,6 +481,7 @@ body {
     left: 136px;
     width: 240px;
     padding-bottom: 20px;
+    font-family: bold;
     @media only screen and (max-width: 458px){
       left: 76px;
     }
@@ -500,6 +507,7 @@ body {
       color: #57920e;
       line-height: 64px;
       padding-bottom: 30px;
+      font-family: light;
       @media only screen and (max-width: 768px) {
         font-size: 45px;
         line-height: 1;
@@ -511,6 +519,8 @@ body {
     &:nth-child(3) {
       font-size: 18px;
       color: #303f81;
+      font-family: light;
+
       @media only screen and (max-width: 768px) {
         padding-bottom: 50px;
       }
@@ -546,6 +556,7 @@ body {
     font-size: 36px;
     padding-bottom: 10px;
     color: #4f8d02;
+    font-family: light;
     @media only screen and (max-width: 1215px){
       font-size: 30px;
       text-align: center;
@@ -559,7 +570,7 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    font-weight: bold;
+    font-family: bold;
     &:before {
       content: "";
       display: block;
@@ -583,6 +594,7 @@ body {
   p , a{
     font-size: 28px;
     color: #3a4883;
+    font-family: light;
     @media only screen and (max-width: 400px){
       font-size: 24px;
       text-align: center;
@@ -592,6 +604,7 @@ body {
   a, .footer-address {
     font-size: 20px;
     padding-top: 0;
+    font-family: bold;
   }
   a {
     padding-top: 15px;
@@ -612,6 +625,7 @@ body {
         font-size: 27px;
         padding:15px 0 25px 0;
         position: relative;
+        font-family: bold;
         &:after {
           content: "";
           display: block;
@@ -640,10 +654,13 @@ body {
     font-size: 19px;
     padding:5px 0;
     color: white;
+    font-family: light;
     &:nth-child(1) {
       font-size: 27px;
       padding:15px 0 25px 0;
       position: relative;
+      font-family: bold;
+
       &:after {
         content: "";
         display: block;
